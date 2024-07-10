@@ -1,0 +1,280 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff; 
+    background-color: #fff7f7; 
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.intro-message {
+    text-align: center;
+    padding: 40px;
+    background-color: #1a1a1a; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.intro-message h1 {
+    color: #ffffff; 
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+
+.intro-message p {
+    color: #dddddd; 
+    font-size: 1.25rem; 
+    margin-bottom: 20px; 
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: #1a1a1a; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+}
+
+h1, p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+header {
+    background-color: #343a40; 
+    color: #ffffff; 
+    padding: 20px 0; 
+}
+
+.header-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 20px; 
+}
+
+header h1 {
+    font-size: 24px; 
+    margin: 0; 
+}
+
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
+nav ul li a {
+    color: #ffffff; 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+nav ul li a:hover {
+    background-color: #495057; 
+}
+
+
+main {
+    padding: 40px 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.about {
+    padding: 60px 20px;
+   
+    text-align: center;
+}
+
+.about .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.about .bio {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.about .contact-info p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.hero {
+    background-color: #000000; /* Background color for the hero section */
+    color: #ffffff; /* Text color */
+    padding: 10px 0; /* Adjust padding as needed */
+    text-align: center; /* Center align text */
+}
+
+.hero-content {
+    max-width: 800px; /* Max width for content */
+    margin: 0 auto; /* Center align content horizontally */
+}
+
+.hero-content h1 {
+    font-size: 3rem; /* Example font size */
+    margin-bottom: 20px; /* Space below heading */
+    text-transform: uppercase; /* Uppercase text */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #dad6d6; 
+    background-color: #c4c0c0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: #363333; 
+    box-shadow: 0 4px 8px rgba(235, 222, 222, 0.2); 
+    border-radius: 10px; 
+}
+
+.contact-container h2, .thank-you-message h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.form-group input:focus {
+    border-color: #00bbf0;
+    outline: none;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #231a6f;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #00bbf0;
+}
+
+
+.thank-you-message {
+    text-align: center;
+    padding: 40px;
+}
+
+.thank-you-message p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.thank-you-container {
+    max-width: 600px;
+    margin: 50px auto; 
+    padding: 20px;
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+    text-align: center;
+}
+
+.thank-you-container h1 {
+    color: #ffffff; 
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+}
+
+.thank-you-container p {
+    color: #dddddd; 
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+footer .contact-email,
+footer .contact-phone {
+    display: inline-block;
+}
+
+
+
+#date-container {
+    position: fixed;
+    top: 25px; 
+    right: 30px;  
+}
+
+
+#dynamic-date {
+    font-size: 16px;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

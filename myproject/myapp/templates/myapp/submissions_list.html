@@ -1,0 +1,12 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+    <h2>Submissions List</h2>
+    <ul>
+        {% for submission in submissions %}
+            <li>{{ submission.name }} - {{ submission.email }} - {{ submission.submission_date }}</li>
+        {% empty %}
+            <li>No submissions yet.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+    <div class="intro-message">
+        <h1>Dear Hr</h1>
+        <p>This is the website according to the company requirement. Hope you like it.</p>
+    </div>
+
+    <section id="date-section">
+        <div id="date-heading">
+            <div id="date-container">
+                <span id="dynamic-date">{{ current_datetime }}</span>
+            </div>
+        </div>
+    </section>
+{% endblock %}
